@@ -1,0 +1,473 @@
+@media only screen and (max-width: 600px) {
+    /* ------------------------------
+        Disclaimer Start
+    --------------------------------- */
+    #disclaimer p {
+        line-height: 20px;
+        padding: 10px 5px;
+        letter-spacing: 0px;
+        font-size: 11px;
+        margin: 0px !important;
+        word-spacing: 0px;
+    }
+    /* ------------------------------
+        Disclaimer End
+    ------------------------------- */
+
+
+
+    /* -----------------------------
+        Home Start
+    ------------------------------ */
+    .header-section {
+        padding: 20px 0px;
+    }
+
+    header.header-section.header-top {
+        padding-top: 70px;
+    }
+
+    .header-logo > img {
+        width: 160px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .header-context > h1 {
+        font-size: 30px;
+        word-spacing: 0px;
+        line-height: 45px;
+    }
+
+    .header-context > p{
+        display: none;
+    }
+
+    .trust-content {
+        gap: 10px;
+    }
+
+    .trust-description {
+        gap: 3px;
+    }
+    
+    .trust-description > img {
+        width: 20px;
+    }
+
+    .trust-description > p {
+        font-weight: 400;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+        font-size: 8px;
+        padding: 0px !important;
+    }
+    /* -----------------------------
+        Home End
+    ------------------------------ */
+
+
+
+    /* --------------------------
+        List Start
+    ----------------------------- */
+    section.top-list-section.container {
+        overflow-x: hidden;
+    }
+
+    .top-list-section {
+        padding: 25px 0px;
+    }
+
+    .top-list-card {
+        padding: 0px 15px 0px 15px;
+    }
+
+    .brand-area {
+        padding: 20px 0px;
+        justify-content: flex-start;
+    }
+
+    .brand-name > a > h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .top-listing {
+        margin: 0px;
+        right: 50%;
+        width: 22px;
+        height: 22px;
+        left: 10%;
+        transform: translate(-10px, -80px);
+        display: block;
+    }
+
+    .top-listing span {
+        width: 23px;
+        padding: 2px 0;
+        font-size: 14px;
+    }
+
+    .brand-name-border:after, 
+    .brand-name-border-2::after{
+        display: none;
+    }
+
+    .brand-name-border-3::after {
+        height: 150px;
+        margin: 0;
+        left: 50%;
+        transform: translate(0px, -110px);
+    }
+
+    .top-list-bonus {
+        text-align: center;
+        padding: 15px 0px;
+        position: relative;
+        right: 50%;
+        transform: translate(-100px, 12px);
+        top: 50%;
+    }
+
+    p.top-bonus-p-middle {
+        font-size: 20px;
+        font-weight: 900;
+        word-spacing: 1px;
+        padding: 0px 6px;
+    }
+
+    .top-rating-p {
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(160px, -160px);
+        padding: 0px;
+    }
+
+    .top-list-rating > ul > li {
+        font-size: 10px;
+        margin: 0px -2px;
+    }
+
+    .ratings-nm > p {
+        font-size: 34px;
+    }
+
+    .top-list-rating-area {
+        padding: 0px;
+        gap: 2px;
+        justify-content: center;
+        max-width: 265px;
+        width: 100%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-135px);
+        flex-direction: column-reverse;
+        border: 0px;
+    }
+
+    .top-votes > P {
+        font-size: 16px;
+        padding-top: 10px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-130px);
+    }
+
+    .button-area {
+        text-align: center;
+        padding: 0px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-40px);
+    }
+
+    .top-list-btn > a > button {
+        font-size: 12px;
+        padding: 10px 12px;
+    }
+    /* ------------------------------
+        List End
+    ---------------------------------- */
+
+
+    /* ---------------------------------
+        Service Section Start
+    ----------------------------------- */
+    .service-title > h2 {
+        font-size: 30px;
+        color: #000;
+        font-weight: 700;
+        word-spacing: 1.8px;
+        padding-bottom: 30px;
+    }
+
+    .service-px {
+        padding: 0px 20px;
+    }
+
+    .service-card-content {
+        height: 390px;
+    }
+
+    .service-card-content > h5 {
+        font-size: 23px;
+        padding: 15px 15px 8px 15px;
+        line-height: 32px;
+    }
+
+    .service-card-content > p {
+        font-size: 17px;
+        line-height: 28px;
+        min-height: 90px;
+    }
+    /* --------------------------------
+        Service Section End
+    ----------------------------------- */
+
+
+    /* ---------------------------------
+        About Section Start
+    ------------------------------------- */
+    .about-section {
+        padding: 0px 0px;
+    }
+
+    .about-content {
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    .about-description > h3 {
+        font-size: 30px;
+    }
+
+    .about-image > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-description {
+        padding: 20px;
+    }
+    /* ---------------------------------
+        About Section End
+    ------------------------------------- */
+
+
+    /* ---------------------------------
+        List Description Start
+    ----------------------------------- */
+    .list-content {
+        padding: 20px 20px;
+    }
+
+    .list-content > h2 {
+        font-size: 30px;
+        font-weight: 600;
+        word-spacing: 0px;
+        line-height: 42px;
+    }
+    /* ------------------------------------
+        List description End
+    -------------------------------------- */
+
+
+
+    /* -------------------------------------
+        Footer Start
+    ---------------------------------------- */
+    .footer {
+        margin-top: 30px;
+    }
+
+    .footer-license-images {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-license-images img {
+        padding: 10px 8px 20px 8px;
+    }
+
+    .copyright-display {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 18px;
+    }
+
+    .copyright-context > p > a {
+        font-size: 13px;
+        line-height: 28px;
+        margin: 00px 2px;
+    }
+
+    .footer-cp-bg {
+        padding: 0px 0px;
+    }
+
+    .footer-txt {
+        padding: 0px 20px;
+        overflow-x: hidden;
+    }
+
+    .page-content > h5 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .page-content > p {
+        font-size: 16px !important;
+        line-height: 26px !important;
+        word-spacing: 0px !important;
+    }
+
+    .page-content > ul > li {
+        font-size: 16px !important;
+        line-height: 26px !important;
+        word-spacing: 0px !important;
+    }
+    /* ------------------------------------
+        Footer End
+    ---------------------------------------- */
+}
+
+
+@media (max-width: 375px) {
+    /* -----------------------------
+        Home Start
+    ------------------------------ */
+    .header-context > h1 {
+        font-size: 28px;
+        word-spacing: 0px;
+        line-height: 40px;
+    }
+
+    .trust-description {
+        gap: 3px;
+    }
+
+    .trust-description > img {
+        width: 16px;
+    }
+
+    .trust-description > p {
+        font-size: 7px;
+        padding: 0px !important;
+    }
+    /* -----------------------------
+        Home End
+    ------------------------------ */
+
+
+
+    /* --------------------------
+        List Start
+    ----------------------------- */
+    .top-list-card {
+        padding: 0px 15px 0px 15px;
+        margin: 15px 0px;
+    }
+
+    .top-list-section {
+        padding: 5px 0px;
+    }
+
+    .brand-name > a > h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    p.top-bonus-p-middle {
+        font-size: 18px;
+        font-weight: 900;
+        word-spacing: 0px;
+        padding: 4px 0px;
+    }
+
+    .top-list-btn > a > button {
+        font-size: 11px;
+        padding: 10px 12px;
+    }
+
+    .top-listing {
+        width: 22px;
+        height: 22px;
+        transform: translate(-20px, -80px);
+    }
+
+    .top-listing span {
+        width: 23px;
+        padding: 2px 0;
+        font-size: 14px;
+    }
+
+    .brand-name-border-3::after {
+        transform: translate(5px, -110px);
+    }
+
+    .top-list-bonus {
+        transform: translate(-90px, 12px);
+    }
+    /* ------------------------------
+        List End
+    ---------------------------------- */
+
+
+
+    /* ---------------------------------
+        About section Start
+    ------------------------------------- */
+    .about-description {
+        padding: 20px 10px;
+    }
+    /* -----------------------------------
+        About Section End
+    --------------------------------------- */
+
+
+
+
+    /* -----------------------------------
+        Service Section Start
+    --------------------------------------- */
+    .service-px {
+        padding: 0px 10px;
+    }
+
+    .service-card-content > p {
+        font-size: 16px;
+    }
+    /* -----------------------------------
+        Service Section End
+    --------------------------------------- */
+
+
+
+    /* ---------------------------------
+        List Description Start
+    -------------------------------------- */
+    .list-content {
+        padding: 20px 10px;
+    }
+    /* -------------------------------------
+        List Description End
+    --------------------------------------- */
+}
+
+
+
+@media (max-width: 991px){
+    body .container{
+        max-width:100%
+    }
+}
+
+@media (min-width: 992px){
+    body .container {
+        width: 1250px;
+        max-width: 98vw;
+    }
+}
