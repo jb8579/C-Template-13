@@ -202,7 +202,7 @@ header.header-section.header-top {
   line-height: 1.25em;
   color: #151515 !important;
   margin: 0px;
-  text-decoration: n;
+  text-decoration: none;
 }
 
 .top-listing-main{
@@ -339,6 +339,13 @@ p.top-bonus-p-bottom {
   margin-bottom: 0px;
   padding-top: 10px;
   text-decoration: underline dashed #818181;
+  transition: all 0.5s ease-in-out;
+}
+
+.top-list-TC > a > p:hover {
+  color: #0058ff;
+  text-decoration: underline dashed #0058ff;
+  font-weight: 500;
 }
 /* --------------------------------
     Top List Section End
