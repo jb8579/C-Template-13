@@ -140,9 +140,9 @@
     }
 
     .top-list-bonus.top-list-bonus-sm {
-        transform: translate(-100px, 28px);
+        transform: translate(-100px, 12px);
     }
-
+    
     p.top-bonus-p-middle {
         font-size: 20px;
         font-weight: 900;
@@ -159,7 +159,7 @@
     }
 
     .top-rating-p.top-rating-sm {
-        transform: translate(160px, -140px);
+        transform: translate(160px, -166px);
     }
 
     .top-list-rating > ul > li {
@@ -201,7 +201,7 @@
     }
 
     .button-area.top-button-sm {
-        transform: translateY(-15px);
+        transform: translateY(-32px) !important;
     }
 
     .top-list-btn > a > button {
@@ -391,6 +391,18 @@
     /* --------------------------
         List Start
     ----------------------------- */
+    .top-rating-p.top-rating-sm {
+        transform: translate(160px, -140px) !important;
+    }
+
+    .top-list-bonus.top-list-bonus-sm {
+        transform: translate(-100px, 22px) !important;
+    }
+
+    .button-area.top-button-sm {
+        transform: translateY(-15px) !important;
+    }
+
     .top-list-card {
         padding: 0px 15px 0px 15px;
         margin: 15px 0px;
