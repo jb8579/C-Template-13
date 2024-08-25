@@ -360,7 +360,7 @@
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
     /* -----------------------------
         Home Start
     ------------------------------ */
@@ -415,6 +415,7 @@
     .brand-name > a > h2 {
         font-size: 22px;
         line-height: 30px;
+        text-decoration: none !important;
     }
 
     p.top-bonus-p-middle {
