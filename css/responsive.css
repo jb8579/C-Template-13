@@ -430,7 +430,8 @@
 
     .top-list-btn > a > button {
         font-size: 11px;
-        padding: 10px 12px;
+        padding: 10px 6px;
+        width: 140px;
     }
 
     .top-listing {
@@ -620,6 +621,12 @@
         padding: 0px 0px;
         position: relative;
         top: 22px;
+    }
+
+    .footer-license-images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     /* ----------------------------------
         Top List End

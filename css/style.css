@@ -543,19 +543,19 @@ p.top-bonus-p-bottom {
 }
   
 .footer-license-images img {
-  padding: 10px 8px 30px 8px;
+  padding: 10px 0px 20px 0px;
 }
   
-footer img.footer-ico{
-  max-width:130px
+footer img.footer-ico {
+  max-width: 140px;
 }
   
 img.footer-ico.footer-icon-sm-1 {
-  width: 125px;
+  max-width: 195px;
 }
 
 img.footer-ico.footer-icon-sm-2 {
-  width: 140px;
+  max-width: 112px;
 }
 
 img.footer-ico.footer-icon-xsm {
@@ -567,7 +567,7 @@ img.footer-ico.footer-icon-sm {
 }
   
 img.footer-ico.footer-icon-sm-3 {
-  width: 62px;
+  width: 60px;
 }
 
 p.footer-p-a {
