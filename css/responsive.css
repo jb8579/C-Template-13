@@ -412,6 +412,10 @@
         padding: 4px 0px;
     }
 
+    p.top-bonus-p-bottom {
+        font-size: 15px !important;
+    }
+
     .top-list-btn > a > button {
         font-size: 11px;
         padding: 10px 12px;
@@ -430,7 +434,7 @@
     }
 
     .brand-name-border-3::after {
-        transform: translate(5px, -128px);
+        transform: translate(5px, -102px);
         height: 160px;
     }
 
